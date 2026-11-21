@@ -10,10 +10,10 @@ Classic data structures and algorithms implemented **from scratch** in Java 21 �
 | Lists | `DynamicArray` (growing array), `SinglyLinkedList` (reverse in place, middle with fast/slow pointers) | add O(1)*, get O(1) / O(n) |
 | Stack & queue | `ArrayStack` (+ bracket check, RPN calculator), `RingBufferQueue` | O(1)* |
 | Heap | `MinHeap` with custom `Comparator` | add/poll O(log n) |
-| Hashing | `ChainedHashMap` (separate chaining, resize at load factor 0.75) | O(1) average |
-| Trees | `BinarySearchTree` (put, get, remove with all 3 cases, min/max, height) | O(h) |
-| Sorting | insertion, merge (hybrid), quick (random pivot, 3-way partition), heap, counting + binary search | see Javadoc table |
-| Graphs | `Graph` – BFS, DFS, connected components, Dijkstra with path, topological sort (Kahn) | O(V + E), O((V+E) log V) |
+| Hashing | `ChainedHashMap` (separate chaining, resize at load factor 0.75), `LruCache` (hash map + doubly linked list) | O(1) average |
+| Trees | `BinarySearchTree` (put, get, remove with all 3 cases), `AvlTree` (self-balancing, 4 rotation cases), `Trie` (prefix search, autocomplete) | O(h), O(log n), O(L) |
+| Sorting & selection | insertion, merge (hybrid), quick (random pivot, 3-way partition), heap, counting, binary search, `QuickSelect` (k-th smallest, median) | see Javadoc table, QuickSelect O(n) avg |
+| Graphs | `Graph` – BFS, DFS, components, Dijkstra with path, topological sort (Kahn); `BellmanFord` (negative weights, cycle detection); `Kruskal` MST | O(V + E), O((V+E) log V), O(V·E), O(E log E) |
 | Disjoint sets | `UnionFind` with path compression and union by size | ~O(1) |
 
 \* amortized
