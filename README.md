@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/muhammedfidann06/java-dsa/actions/workflows/ci.yml/badge.svg)](https://github.com/muhammedfidann06/java-dsa/actions/workflows/ci.yml)
 
+**▶ Live demo:** https://muhammedfidann06.github.io/java-dsa/ – try A* vs. BFS, N-Queens, Manacher and the sliding window maximum in the browser
+(small JavaScript ports of the Java classes), plus the [Javadoc](https://muhammedfidann06.github.io/java-dsa/api/) and the
+[test coverage report](https://muhammedfidann06.github.io/java-dsa/coverage/) – all built by CI on every push to `main`.
+
 Classic data structures and algorithms implemented **from scratch** in Java 21 – lists, stack, queue, heap, hash map and tree are built on plain arrays and nodes (the graph algorithms then use JDK collections). Every class is tested with JUnit 5 (incl. randomized tests against the JDK), and coverage is measured with JaCoCo.
 
 ## Contents
