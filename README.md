@@ -24,6 +24,10 @@ Classic data structures and algorithms implemented **from scratch** in Java 21 �
 | Greedy & randomized | `Huffman` coding (optimal prefix-free code, encode/decode), `SkipList` (sorted set with random express lanes) | O(n log n), O(log n) expected |
 | Number theory | gcd/lcm (Euclid), modular exponentiation, sieve of Eratosthenes, prime factorization, matrix power (Fibonacci in O(log n)) | O(log n), O(n log log n) |
 | Intervals | `IntervalScheduling` – max non-overlapping intervals (earliest end first), minimum number of rooms (min-heap) | O(n log n) |
+| Strings, part 2 | `ZAlgorithm` (Z-array, pattern search), `Manacher` (longest palindrome and palindrome count in linear time) | O(n + m), O(n) |
+| Range queries, part 2 | `SparseTable` – static range minimum, built once, answered in constant time | O(n log n) build, O(1) query |
+| Search & backtracking | `GridAStar` (A* with Manhattan heuristic, checked against BFS), `NQueens` (bitmask backtracking, counts and one solution) | O(E log V), exponential |
+| Sliding window | `SlidingWindow` – maximum of every window with a monotonic deque | O(n) |
 
 \* amortized
 
@@ -43,3 +47,8 @@ The CI also runs the benchmark and uploads the coverage report as an artifact.
 Klassische Datenstrukturen und Algorithmen, selbst programmiert in Java: Listen, Stapel, Warteschlange, Heap,
 Hash-Tabelle, Suchbaum, Sortierverfahren und Graph-Algorithmen (BFS, DFS, Dijkstra).
 Alles ist mit JUnit getestet. Die Kommentare im Code erklären die Ideen und die Laufzeit.
+
+## How this was built
+This project was created with the help of an AI coding assistant (Claude). I'm learning to program and use it to understand
+how the code works – the tests and the CI pipeline show that it runs correctly.
+*Dieses Projekt ist mit Hilfe eines KI-Assistenten entstanden; ich nutze es, um Programmieren zu lernen.*
