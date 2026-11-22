@@ -19,6 +19,8 @@ Classic data structures and algorithms implemented **from scratch** in Java 21 �
 | Strings | `Kmp` – Knuth-Morris-Pratt search with prefix function, finds overlapping matches | O(n + m) |
 | Dynamic programming | edit distance (Levenshtein), longest common subsequence, 0/1 knapsack, longest increasing subsequence (patience sorting) | O(n·m), O(n·W), O(n log n) |
 | More graphs | `FloydWarshall` (all pairs, negative cycle check), `StronglyConnected` (Tarjan, iterative – no stack overflow) | O(V³), O(V + E) |
+| Graphs, part 3 | `Prim` MST (checked against Kruskal), `Bipartite` (BFS two-colouring, finds odd cycles) | O(E log V), O(V + E) |
+| Hashing, part 2 | `RabinKarp` (rolling hash search, verified on hash match), `BloomFilter` (probabilistic set, optimal m and k from n and p) | O(n + m) avg, O(k) |
 | Number theory | gcd/lcm (Euclid), modular exponentiation, sieve of Eratosthenes, prime factorization | O(log n), O(n log log n) |
 
 \* amortized
