@@ -15,6 +15,11 @@ Classic data structures and algorithms implemented **from scratch** in Java 21 �
 | Sorting & selection | insertion, merge (hybrid), quick (random pivot, 3-way partition), heap, counting, binary search, `QuickSelect` (k-th smallest, median) | see Javadoc table, QuickSelect O(n) avg |
 | Graphs | `Graph` – BFS, DFS, components, Dijkstra with path, topological sort (Kahn); `BellmanFord` (negative weights, cycle detection); `Kruskal` MST | O(V + E), O((V+E) log V), O(V·E), O(E log E) |
 | Disjoint sets | `UnionFind` with path compression and union by size | ~O(1) |
+| Range queries | `FenwickTree` (prefix/range sums with updates), `SegmentTree` (range minimum with updates) | O(log n) |
+| Strings | `Kmp` – Knuth-Morris-Pratt search with prefix function, finds overlapping matches | O(n + m) |
+| Dynamic programming | edit distance (Levenshtein), longest common subsequence, 0/1 knapsack, longest increasing subsequence (patience sorting) | O(n·m), O(n·W), O(n log n) |
+| More graphs | `FloydWarshall` (all pairs, negative cycle check), `StronglyConnected` (Tarjan, iterative – no stack overflow) | O(V³), O(V + E) |
+| Number theory | gcd/lcm (Euclid), modular exponentiation, sieve of Eratosthenes, prime factorization | O(log n), O(n log log n) |
 
 \* amortized
 
